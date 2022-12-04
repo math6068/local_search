@@ -97,7 +97,7 @@ if __name__ == "__main__":
     parser.add_argument('--trials', type=int, default=500, help='Number of trials')
     parser.add_argument('--search_space', type=str, default='nasbench', \
         help='nasbench or darts')
-    parser.add_argument('--algo_params', type=str, default='main_experiments', help='which parameters to use')
+    parser.add_argument('--algo_params', type=str, default='local_search', help='which parameters to use')
     parser.add_argument('--output_filename', type=str, default='round', help='name of output files')
     parser.add_argument('--save_dir', type=str, default='results_output', help='name of save directory')
     parser.add_argument('--save_specs', type=bool, default=False, help='save the architecture specs')    
